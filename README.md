@@ -66,3 +66,10 @@ make flake
 (or manually call flake8 `flake8 --show-source the_annotated_transformer.py) to check for PEP8 violations.
 
 It's recommended to run these two commands and fix any flake8 errors that arise, when submitting a PR, otherwise the github actions CI will report an error.
+
+# My walkthrough of the code
+
+I added my walkthrough of the code in `transformer.py`. To get the notebook, please run `jupytext --to ipynb transformer.py`
+
+* I added the support of GPU training for the synthetic data
+* Added more comment to illustrate my understanding

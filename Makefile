@@ -24,9 +24,11 @@ blog: the_annotated_transformer.md
 
 flake: the_annotated_transformer.ipynb
 	flake8 --show-source the_annotated_transformer.py
+	flake8 --show-source transformer.py
 
 black: the_annotated_transformer.ipynb
 	black --line-length 79 the_annotated_transformer.py
+	black --line-length 79 transformer.py
 
 clean: 
 	rm -f the_annotated_transformer.ipynb
